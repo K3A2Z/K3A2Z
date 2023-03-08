@@ -1,15 +1,15 @@
 {
-    "name": "KAZ",
+    "name": "Sadthon",
     "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
     "logo" : "",
     "stack": "container",
-    "repository": "https://github.com/K3A2Z/K3A2Z",
+    "repository": "https://github.com/Mikthon/FQ_YQ",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/K3A2Z/K3A2Z",
+    "website": "https://github.com/Mikthon/FQ_YQ",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
@@ -35,11 +35,6 @@
             "description": "يوزر البوت بدون ـ@ـ",
             "value": "",
             "required": true
-        },
-      "description": "ضع القاره / عاصمة بلدك ( اذا كنت لاتعرفه اتركة كما هوة )",
-      "value": "Asia/Baghdad",
-      "required": false
-
         }
     }
 }
