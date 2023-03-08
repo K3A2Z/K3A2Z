@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name="@Sad_thon"
+            first_name="@K3A2Z"
         )
     )
 
@@ -240,7 +240,7 @@ async def _(event):
     time_bio.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            about="@Sad_thon"
+            about="@K3A2Z"
         )
     )
 
@@ -609,6 +609,10 @@ async def _(event):
     start = datetime.datetime.now()
     await event.edit(sec5)
 
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.م6"))
+async def _(event):
+    start = datetime.datetime.now()
+    await event.edit(sec6)
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.الاوامر الخاصة"))
 async def _(event):
