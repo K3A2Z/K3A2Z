@@ -614,6 +614,11 @@ async def _(event):
     start = datetime.datetime.now()
     await event.edit(sec6)
 
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.م7"))
+async def _(event):
+    start = datetime.datetime.now()
+    await event.edit(sec7)
+
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.الاوامر الخاصة"))
 async def _(event):
     if ispay2[0] == 'yes':
