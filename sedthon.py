@@ -570,7 +570,7 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ KAZ Source
+**☆ سورس كـاز
 ☆ الاصدار : 1.5
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
