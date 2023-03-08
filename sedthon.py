@@ -575,7 +575,7 @@ async def _(event):
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ المطور : @alhggkh
+☆ المطور : @alhgglh
 ☆ KAZ Source : @K3A2Z**
 ''')
 
@@ -688,7 +688,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
    The best !
-       -@alhggkh
+       -@alhgglh
 ''', reply_to=event)
 
 
