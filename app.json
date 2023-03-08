@@ -1,15 +1,15 @@
 {
-    "name": "Sadthon",
+    "name": "KAZ",
     "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
     "logo" : "",
     "stack": "container",
-    "repository": "https://github.com/Mikthon/FQ_YQ",
+    "repository": "https://github.com/K3A2Z/K3A2Z",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/Mikthon/FQ_YQ",
+    "website": "https://github.com/K3A2Z/K3A2Z",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
